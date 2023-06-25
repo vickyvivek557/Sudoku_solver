@@ -87,7 +87,7 @@ public class Sudoku {
         //calling function to solve sudoku
         boolean ans = solveSudoku(matrix);
 
-        //printing answer
+        //printing the answer
         System.out.println("Answer");
         if(!ans){
             System.out.println("This is not a valid Sudoku");
